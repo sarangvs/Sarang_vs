@@ -1,0 +1,123 @@
+.skills-image{
+    
+    font-family: Lato, sans-serif;
+    font-weight: 500;
+}
+
+.sci{
+    list-style: none;
+}
+
+
+
+/* .container-fluid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.aboutus{
+    margin-right: 30px;
+    width: 40%;
+}
+.sci{
+    
+    display: flex;
+    width: 40px;
+    height: 40px;
+  
+}
+.icon{
+    margin: 20px 20px 0px 20px;
+
+}
+.quicklinks{
+    position: relative;
+    width: 25%;
+    
+    
+    
+}
+.quicklinks ul li{
+    list-style: none;
+}
+
+.quicklinks ul li a{
+    color:black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    
+}
+.quicklinks ul li a:hover{
+    color: grey;
+}
+.contact{
+    width: calc(35%-60px);
+    margin-right: 0 !important;
+}
+.info{
+    position: relative;
+
+
+}
+.info li{
+    margin-bottom: 16px;
+
+}
+.info li span:nth-child(1){
+    color:#000;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+.info li span{
+    color: black;
+}
+.info li a{
+    color: #000;
+    text-decoration: none;
+}
+.info li a:hover{
+    color: grey;
+
+}
+.copyright{
+    width: 100%;
+    background:  #e7e8e3;
+    padding: 8px 100px;
+    text-align: center;
+    color: black;
+} */
+/*@media(max-width:991px){
+    footer{
+        padding: 40px;
+    }
+    footer .container .sec{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container .sec .aboutus,.quicklinks
+    .contact{
+        width: 100%;
+    }
+    .copyrightText{
+      
+        padding: 8px 40px;
+    }
+       
+}*/
+
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: none;
+    color:grey;
+}
+.card-img-top{
+    width: 25.8em;
+}
