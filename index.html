@@ -18,12 +18,12 @@
 
 <body>
   <header class=" var(--bs-font-sans-serif);">
-    <div class="row text-black">
+    <div class="row text-black m-auto">
       <div class="col-md-6 col-6 px-5">
         <h2 style="font-family: 'Playfair Display', serif; font-size: 40px; font-weight: 900;">S.</h2>
       </div>
 
-      <div class="col-md-6 col-6">
+      <div class="col-md-6 col-6" >
         <nav class="navbar navbar-expand-lg navbar-light  font-family:Lato, sans-serif; margin-left:auto"
           style="font-size: 18px; margin-left:autox;">
           <div class="container-fluid">
@@ -35,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#home" >Home</a>
+                  <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#service">Services</a>
@@ -182,32 +182,36 @@
           <div class="row">
             <div class="email col-md-6">
               <label for="inputEmail4"></label>
-              <input type="text" class="form-control" name="fname" id="inputEmail4" required="required"
-                placeholder="First name">
+              <input type="text" class="form-control" name="fname"   placeholder="First name"><br>
+              <span class="error_form" id="fname_error_message"></span>
             </div>
 
             <div class="number col-md-6">
               <label for="inputnumber"></label>
-              <input type="text" class="form-control" name="lname" id="inputnumber" placeholder="Last name">
+              <input type="text" class="form-control" name="lname"  placeholder="Last name"><br>
+              <span class="error_form" id="lname_error_message"></span>
             </div>
           </div>
           <div class="row">
             <div class="email col-md-6">
               <label for="inputEmail4"></label>
-              <input type="email" class="form-control" name="emailAdress" id="inputEmail4" placeholder="Email">
+              <input type="email" class="form-control" name="emailAdress"  placeholder="Email"><br>
+              <span class="error_form" id="email_error_message"></span>
             </div>
 
             <div class="number col-md-6">
               <label for="inputnumber"></label>
-              <input type="number" class="form-control" name="contact" id="inputnumber" placeholder="Contact number">
+              <input type="number" class="form-control" name="contactNum"  placeholder="Contact number"><br>
+              <span class="error_form" id="fname_error_message"></span>
             </div>
           </div>
           <div class="row">
             <div class="enquiry col-md-12">
-              <label for="inputAddress"></label>
+              
               <br>
-              <textarea style=" width: 100%; border-radius: 10px;" class="enquiry" rows="5" name="enquiry"
+              <textarea style=" width: 100%; border-radius: 10px;" class="enquiry" rows="5" name="enquirY" id="feedback"
                 placeholder="Feel free to ask...."></textarea>
+                <span class="error_form" id="enquiry_error_message"></span>
             </div>
           </div>
           <div class="row">
@@ -275,10 +279,10 @@
             performance from designing the application, planning a timeline, and developing any complicated application
             within a short time compared to any other native app developers out there.</p>
           <div class="sci">
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-linkedin-in"></i>
-            <i class="fab fa-youtube"></i>
+            <a href="https://www.instagram.com/___saarang/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/sarang.kichu.9/"><i class="fab fa-facebook"></i></a> 
+            <a href="https://www.linkedin.com/feed/?trk=onboarding-landing"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/feed/?trk=onboarding-landing"><i class="fab fa-youtube"></i></a>
 
 
 
