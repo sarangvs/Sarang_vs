@@ -7,6 +7,13 @@
 .sci{
     list-style: none;
 }
+#nav{
+    position:fixed ;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
 
 
 
